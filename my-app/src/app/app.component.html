@@ -1,0 +1,10 @@
+<div class="height-max">
+    <app-header (fileEmit)="onFileEmit($event)"></app-header> 
+    <div class="height-max example-header-image">
+            <app-main [imageFile] = "imageFile"></app-main>
+    </div>
+      <!-- <app-main>
+        <router-outlet></router-outlet> // your content
+        </app-main> -->
+    <app-footer></app-footer> 
+</div>

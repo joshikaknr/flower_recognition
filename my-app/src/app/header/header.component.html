@@ -1,0 +1,17 @@
+<div>
+    <mat-toolbar color="primary">
+        <mat-icon>local_florist</mat-icon>
+        <div class="text-label"> GarDen </div>
+        <div class="example-spacer"></div>
+        <div class="example-icon">
+                <label for="file"><mat-icon>add_a_photo</mat-icon></label>
+                <form>
+                    <input id="file" type="file" style="display: none;"
+                    (change)="handleFileInput($event)" 
+                    [src]="localUrl"/>
+                </form>
+        </div>
+    </mat-toolbar>
+
+    
+</div> 
